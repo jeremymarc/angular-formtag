@@ -1,4 +1,5 @@
-App.directive('ngFormTag', function() {
+angular.module('formtag', [])
+.directive('ngFormTag', function() {
   return {
     restrict: 'A',
     scope: true,
