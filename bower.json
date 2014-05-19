@@ -2,7 +2,7 @@
   "name": "angular-formtag",
   "main": "ngFormTag.js",
   "version": "0.1.0",
-  "homepage": "https://github.com/jeremymarc/ngFormTag",
+  "homepage": "https://github.com/jeremymarc/angular-formtag",
   "authors": [
     "Jeremy Marc <jeremy.marc@me.com>"
   ],
