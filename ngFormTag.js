@@ -28,7 +28,9 @@ angular.module('formtag', [])
             model = '$scope.' + $(a.target).attr('ng-model');
             eval(model += "= value");
             submit = '$scope.' + attrs.ngFormTag;
-            return eval(submit);
+            var results = eval(submit);
+            $scope.$apply();
+            return results;
           });
         };
       };
